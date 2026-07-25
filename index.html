@@ -22,5 +22,18 @@
     <footer>
         <p> Static Site</p>
     </footer>
+
+    <script type="text/javascript" src="https://cdn.letsnotify.in//index.js"></script>
+    <script>
+    const sdk = new LetsNotifySDK();
+    const pushSDK = sdk.pushSdk();
+    pushSDK.init({
+        connectionId: "96fead1f-4921-4bc2-b9ca-d3359e2b4f08",
+        serviceWorkerPath: "LetsNotifySW.js",
+        apiKey: "1e97cb3e17f64c3d5570c35cd8296cf9",
+        secretKey: "d994b2e8a48c2903e846566a2e54bccde58b422f79a7db0c9657b401f81138cb"
+    });
+    </script>
+    
 </body>
 </html>
